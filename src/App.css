@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.App{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: calc(100vw - 2rem);
+    height: calc(100vh - 2rem);
+}
+
+
+.card{
+    background-color: aliceblue;
+    width: fit-content;    
+}
+
+.info{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+

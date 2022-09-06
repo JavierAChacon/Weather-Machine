@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,25 +10,68 @@
 
 .App{
     display: flex;
-    background-color: antiquewhite;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
-    width: calc(100vw - 2rem);
-    height: calc(100vh - 2rem);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color:#d9f0ff;
 }
 
 
 .card{
-    background-color: aliceblue;
-    width: fit-content;    
+    display: flex;
+    flex-direction: column; 
+    border-radius: 1rem;
+    width: 35rem;
+    height: 12rem;
+    background-color: #427AA1;
+    padding: 0.5rem;
+    justify-content: space-evenly;
 }
 
+
+.description{
+    text-align: center;
+    margin: 0.25rem;
+    color: #42e2b8;
+}
 .info{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    color: #EBF2FA;
 }
 
 ul{
     list-style: none;
+    display: flex;
+    column-gap: 1rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.button > *{
+    border-radius: 1rem;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    background-color: #42e2b8;
+    color: white;
+}
+
+.icon{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+i{
+    color: #42e2b8;
 }
 
